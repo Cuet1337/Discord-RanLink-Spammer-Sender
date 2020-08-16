@@ -13,7 +13,7 @@ bot.remove_command("help")
 
 @bot.event
 async def on_ready():
-    print(f'ON. Use {prefix}lol to start.')
+    print(f'Ready, use {prefix}send or {prefix}spammer to spam/send links!')
 
 def getlinkFromFile():
   with open("links.txt", 'r') as linkFile:
